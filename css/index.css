@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+}
+
+p {
+	color: darkgoldenrod;
+	font-family: 'Inconsolata', monospace;
+}
+
+#main {
+	display: flex;
+	gap: 10px;
+}
+
+#textwindow {
+	height: 96vh;
+	width: 50vw;
+	border: 2px solid darkgoldenrod;
+
+}
+
+#textwindow p {
+	padding: 10px;
+}
+
+#window {
+	height: 96vh;
+	width: 50vw;
+}
+
+#userreports {
+	height: 48vh;
+	width: 50vw;
+	border: 2px solid darkgoldenrod;
+}
+
+#userreports p {
+	padding: 10px;
+}
+
+#iconsdisplay {
+	height: 48vh;
+	width: 50vw;
+}
+
+#iconsdisplay p {
+	vertical-align: middle;
+	text-align: center;
+}
