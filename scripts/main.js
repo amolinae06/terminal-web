@@ -13,6 +13,7 @@ let glados = ["Forms FORM-231102-12",
             ]
 
 let credits = [">List of Personnel",
+                " ",
                 "amolinae",
                 "Gordon Freeman",
                 "Alyx Vance",
@@ -49,3 +50,11 @@ new TypeIt("#credits", {
   lifeLike: true,
   waitUntilVisible: true,
   }).go();
+
+new TypeIt("#subjectname", {
+  strings: ["amolinae"],
+  startDelay: 1200,
+  speed: 75,
+  cursorChar: "_",
+  lifeLike: true,
+}).go();
